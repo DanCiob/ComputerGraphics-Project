@@ -1,0 +1,140 @@
+{
+    "instances": [
+        {
+            "id": 0,
+            "model": "axis",
+            "texture": "tAxis",
+            "transform": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "id": 1,
+            "model": "house1",
+            "texture": "tCity",
+            "transform": [
+                0.16677173972129822,
+                0.0,
+                0.0,
+                -3.099999189376831,
+                0.0,
+                0.16677173972129822,
+                0.0,
+                5.999996662139893,
+                0.0,
+                0.0,
+                0.16677173972129822,
+                -2.6999995708465576,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "id": 2,
+            "model": "road",
+            "texture": "tRoad",
+            "transform": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "id": 3,
+            "model": "room",
+            "texture": "tRoom",
+            "transform": [
+                0.0894944965839386,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0894944965839386,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0894944965839386,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    ],
+    "models": [
+        {
+            "format": "OBJ",
+            "id": "axis",
+            "model": "models/axis.obj",
+            "on": true
+        },
+        {
+            "format": "MGCG",
+            "id": "house1",
+            "model": "models/house_001.mgcg",
+            "on": true
+        },
+        {
+            "format": "OBJ",
+            "id": "road",
+            "model": "models/old_road.obj",
+            "on": true
+        },
+        {
+            "format": "OBJ",
+            "id": "room",
+            "model": "models/LP_Officeroom2.obj",
+            "on": true
+        }
+    ],
+    "textures": [
+        {
+            "id": "tAxis",
+            "texture": "textures/textures.png"
+        },
+        {
+            "id": "tCity",
+            "texture": "textures/Textures_City.png"
+        },
+        {
+            "id": "tRoad",
+            "texture": "textures/old-road-texture.png"
+        },
+        {
+            "id": "tRoom",
+            "texture": "textures/Texture_128.png"
+        }
+    ]
+}
